@@ -1,0 +1,29 @@
+:root { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #111827; background: #f3f4f6; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.container { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { margin: 0 0 4px; font-size: 1.8rem; }
+.muted { color: #6b7280; } .small { font-size: .8rem; }
+.card { background: #fff; border-radius: 12px; padding: 20px; margin-top: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+form.card { display: flex; flex-direction: column; gap: 14px; }
+label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; font-size: .9rem; }
+select, textarea, input[type=file] { font: inherit; padding: 10px; border: 1px solid #d1d5db; border-radius: 8px; background: #fff; }
+button { background: #2563eb; color: #fff; border: 0; border-radius: 8px; padding: 12px; font-size: 1rem; font-weight: 600; cursor: pointer; }
+button:disabled { opacity: .6; cursor: default; }
+.error { color: #b91c1c; margin: 0; }
+.score { display: flex; align-items: center; gap: 20px; } .score h2 { margin: 0 0 4px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+.chip { padding: 5px 10px; border-radius: 999px; font-size: .82rem; background: #e5e7eb; }
+.chip.good { background: #dcfce7; color: #166534; } .chip.ok { background: #dbeafe; color: #1e40af; }
+.chip.core { background: #fee2e2; color: #991b1b; } .chip.important { background: #ffedd5; color: #9a3412; }
+.chip.bonus { background: #f3f4f6; color: #374151; }
+.roadmap { padding-left: 20px; } .roadmap li { margin-bottom: 14px; } .roadmap p { margin: 4px 0; }
+a { color: #2563eb; }
+
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.skip-link { position: absolute; left: -999px; top: 8px; background: #111827; color: #fff; padding: 8px 12px; border-radius: 6px; z-index: 10; }
+.skip-link:focus { left: 8px; }
+:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
+h2:focus { outline: none; }
+.error:empty { display: none; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }

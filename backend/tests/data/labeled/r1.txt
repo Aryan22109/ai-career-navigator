@@ -1,0 +1,22 @@
+Rahul Mehta
+rahul@example.com
+
+Technical Skills
+Languages: Python, Java, C++, SQL
+Backend: Flask, REST APIs, MySQL
+Tools: Git, Docker, Linux
+
+Projects
+Expense Tracker | Flask, MySQL, React
+• Built a REST API with Flask and MySQL for tracking expenses and generating monthly reports.
+• Containerised the app with Docker and deployed it on an AWS EC2 instance.
+Chat Server | Java
+• Implemented a multi-threaded chat server using Java sockets and thread pools.
+
+Experience
+Software Intern, Acme Labs, Jun 2024 - Aug 2024
+• Wrote unit tests with pytest and set up a GitHub Actions pipeline for CI/CD.
+• Optimised SQL queries and added Redis caching to cut latency.
+
+Education
+B.Tech in Computer Science, 2022 - 2026

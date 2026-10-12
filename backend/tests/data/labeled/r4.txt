@@ -1,0 +1,16 @@
+Sneha Iyer
+Skills: Python, SQL, Excel, Tableau, statistics
+
+Experience
+Data Analyst Intern, FinCo, Jun 2024 - Aug 2024
+* Built dashboards in Tableau and PivotTables in Excel to track weekly KPIs.
+* Wrote SQL queries with joins and window functions on PostgreSQL.
+* Created an ETL pipeline in Python with pandas to clean daily sales files.
+
+Projects
+Churn Prediction
+* Used scikit-learn to train a logistic regression model, and applied machine learning to predict churn.
+* Presented findings with Matplotlib charts.
+
+Education
+B.Sc in Statistics, 2021 - 2024

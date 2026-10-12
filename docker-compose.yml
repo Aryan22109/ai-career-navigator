@@ -1,0 +1,27 @@
+services:
+  db:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: career_navigator
+      MYSQL_USER: navigator
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-change-me}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-change-me-root}
+    volumes: [db_data:/var/lib/mysql]
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      retries: 20
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: mysql+pymysql://navigator:${MYSQL_PASSWORD:-change-me}@db:3306/career_navigator
+      CORS_ORIGINS: http://localhost:8080
+      TRUST_PROXY: "1"
+    depends_on:
+      db: { condition: service_healthy }
+  frontend:
+    build: ./frontend
+    ports: ["8080:80"]
+    depends_on: [backend]
+volumes:
+  db_data:

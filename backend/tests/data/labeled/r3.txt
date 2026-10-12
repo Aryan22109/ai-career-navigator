@@ -1,0 +1,17 @@
+Arjun Verma
+
+TECHNICAL SKILLS
+Linux, Bash, Docker, Kubernetes, Terraform, AWS, Jenkins, Prometheus, Grafana, Python
+
+EXPERIENCE
+DevOps Intern - CloudNine, Dec 2024 - May 2025
+• Automated deployments with Jenkins pipelines and Docker images pushed to AWS.
+• Wrote Bash scripts for log rotation and backups on Ubuntu servers.
+• Provisioned infrastructure with Terraform and monitored services with Prometheus and Grafana.
+
+PROJECTS
+Kubernetes Lab
+• Ran a three-node Kubernetes cluster and deployed a Node.js app with Git-based workflows.
+
+EDUCATION
+B.E. in Information Technology, 2021 - 2025

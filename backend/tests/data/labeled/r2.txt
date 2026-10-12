@@ -1,0 +1,19 @@
+Priya Nair
+
+Skills
+Python, NumPy, pandas, scikit-learn, PyTorch, TensorFlow, OpenCV, spaCy, Matplotlib
+
+Projects
+Sentiment Analyzer
+- Trained an LSTM model in PyTorch for sentiment classification using NLP techniques.
+- Evaluated results with scikit-learn metrics and visualised them with Matplotlib.
+Plant Disease Detector
+- Built a convolutional neural network with TensorFlow and OpenCV for computer vision.
+
+Experience
+Research Intern, Jan 2025 - Jun 2025
+- Analysed experimental data with pandas and NumPy; applied statistics and hypothesis testing.
+- Deployed a model behind a FastAPI service using Docker.
+
+Education
+B.Tech in Electronics, 2022 - 2026

@@ -1,0 +1,13 @@
+Karan Shah
+
+Projects
+Library Portal
+- Built a web app with Node.js, Express.js and MongoDB; the frontend used React and HTML/CSS.
+- Practised data structures and algorithms daily; solved 200 problems in C and C++.
+- Used object-oriented design and wrote JUnit tests for the Java module.
+
+Skills
+C, C++, Java, JavaScript, MongoDB, Git, DSA, OOP, Operating Systems, DBMS
+
+Education
+B.Tech in Computer Science, 2022 - 2026
